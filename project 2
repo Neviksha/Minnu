@@ -1,0 +1,32 @@
+program 1 - to modify the program ( eligibility to vote)
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+ int a , b, i ;
+ 
+ cout<<"how many age inputs you want to give :";
+ cin>> a;
+
+  for( i=1 ; i<= a; i++)
+  {  
+      cout<<endl;
+      cout<<"enter age of person "<< i <<" :";
+      cin>>b;
+       {
+      if(b<18)
+      { cout<<"person"<< i <<" not eligible to vote"<<endl;
+      }
+      else 
+      {cout<<"person"<<  i <<" eligible to vote"<<endl;
+          
+      }
+  }
+      
+      
+    
+  }
+return 0; 
+}
