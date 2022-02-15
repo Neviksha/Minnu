@@ -1,0 +1,40 @@
+program 1 - finding size of char , int , float , double
+
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+  int a,b,c,d;
+  a=1;
+  b=2;
+  c=4;
+  d=8;
+  cout<<"size of char :"<<a<<endl;
+  cout<<"size of int :"<<b<<endl;
+  cout<<"size of float :"<<a<<endl;
+  cout<<"size of double :"<<a<<endl;
+  return 0;
+  
+}
+
+
+program 2 - product of two numbers
+
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+  float a ,b ,c;
+  cout<< "enter two number :"<<endl;
+  cin>> a ;
+  cout<<endl;
+  cin>>b;
+  cout<<endl;
+  c=a*b;
+  cout<<" the product of two numbers are:"<<c;
+  return 0;
+}
